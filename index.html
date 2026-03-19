@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyep's Archive</title>
+    <style>
+        body { background-color: #fdfdfd; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; flex-direction: column; overflow: hidden; }
+        
+        /* 편지 이미지 스타일 */
+        .love-letter { width: 300px; max-width: 80%; transition: 0.3s; animation: heartbeat 2s ease-in-out infinite; /* 2초마다 무한 반복 */ }
+        
+        /* 마우스 올렸을 때 효과 */
+        .love-letter:hover { transform: scale(1.05); animation-play-state: paused; /* 마우스 올리면 애니메이션 일시정지 */ }
+
+        /* 두근거리는 애니메이션 정의 */
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.03); } /* 3%만 살짝 커짐 */
+            100% { transform: scale(1); }
+        }
+
+        /* 안내 문구 스타일 */
+        p { margin-top: 30px; color: #aaa; font-size: 14px; letter-spacing: 2px; animation: fade 2s ease-in-out infinite; }
+        
+        /* 문구 깜빡임 애니메이션 정의 */
+        @keyframes fade {
+            0% { opacity: 0.5; }
+            50% { opacity: 1; }
+            100% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <a href="main.html">
+        <img src="love_letter.png" alt="Enter" class="love-letter">
+    </a>
+    <p>Click the letter to enter</p>
+</body>
+</html>
