@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 1px;
+    line-height: 30px;
+    background-color: rgb(255, 245, 176);
+}
+header {
+    background-color: #84adff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+header img {
+    border-radius: 200px;
+    border: 20px solid #ff6262;
+}
+
+header h1 {
+    color: #ffd062;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: "Mountains of Christmas", serif;
+}
+
+h1, h2 {
+    font-family: "Mountains of Christmas", serif;
+    color: #000000;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+main img {
+  max-width: 100%;
+}
+
+h2 {
+    color: #4784ff;
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0 10px;
+}
+
+a  {
+    color: #84adff;
+}
+
+a:hover {
+    color: #84adff;
+    background-color: #ffd062;
+}
+
+footer {
+    background-color: #84adff;
+    padding: 50px;
+    color : #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #ffd062;
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer a:hover {
+    opacity: 0.8;
+    background-color: transparent;
+}
+
+p.caption {
+    font-size: 10px;
+    color: #83a3af;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0px;
+}
+
+p, ul, ol {
+     text-align: center;
+     list-style-position: inside;
+    padding: 0;
+    color: #000000;
+  
+}
+
